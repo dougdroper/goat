@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Goatman (Resources)",
+    "description": "Model, sounds and jump scare for the Goatman.",
+    "uuid": "24b6579c-666d-40de-82f1-bd598815bec3",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    { "type": "resources", "uuid": "2de0e05a-4b0b-4a95-b9a5-d5fd2e14e17b", "version": [1, 0, 0] }
+  ],
+  "dependencies": [
+    { "uuid": "8487e3bd-01e7-43aa-b5e2-53c65643d5ef", "version": [1, 0, 0] }
+  ]
+}

@@ -1,0 +1,3 @@
+tools/.venv/
+tools/*.wav
+.DS_Store

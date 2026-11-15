@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "goatman:goatman",
+      "materials": { "default": "entity_emissive_alpha" },
+      "textures": { "default": "textures/entity/goatman" },
+      "geometry": { "default": "geometry.goatman" },
+      "animations": {
+        "idle": "animation.goatman.idle",
+        "walk": "animation.goatman.walk",
+        "look_at_target": "animation.goatman.look_at_target"
+      },
+      "scripts": {
+        "animate": ["idle", "look_at_target", { "walk": "query.modified_move_speed" }]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": { "base_color": "#2b211c", "overlay_color": "#b01010" }
+    }
+  }
+}

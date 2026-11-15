@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.goatman.look_at_target": {
+      "loop": true,
+      "bones": {
+        "head": { "rotation": ["query.target_x_rotation", "query.target_y_rotation", 0] }
+      }
+    },
+    "animation.goatman.idle": {
+      "loop": true,
+      "bones": {
+        "neck": { "rotation": [0, 0, "math.sin(query.life_time * 23) * 9"] },
+        "leftArm": { "rotation": [0, 0, "-4 - math.sin(query.life_time * 50) * 3"] },
+        "rightArm": { "rotation": [0, 0, "4 + math.sin(query.life_time * 50) * 3"] }
+      }
+    },
+    "animation.goatman.walk": {
+      "loop": true,
+      "bones": {
+        "leftLeg": { "rotation": ["math.cos(query.anim_time * 450) * 35", 0, 0] },
+        "rightLeg": { "rotation": ["-math.cos(query.anim_time * 450) * 35", 0, 0] },
+        "leftArm": { "rotation": ["-65 - math.cos(query.anim_time * 450) * 15", 0, 0] },
+        "rightArm": { "rotation": ["-65 + math.cos(query.anim_time * 450) * 15", 0, 0] },
+        "body": { "rotation": [12, 0, 0] }
+      }
+    }
+  }
+}

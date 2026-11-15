@@ -1,0 +1,16 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "goatman:goatman": {
+        "volume": 1.0,
+        "pitch": [0.45, 0.6],
+        "events": {
+          "ambient": "mob.goat.ambient.screamer",
+          "hurt": "mob.goat.hurt.screamer",
+          "death": "mob.goat.death.screamer",
+          "step": { "sound": "mob.zombie.step", "volume": 0.35, "pitch": 0.7 }
+        }
+      }
+    }
+  }
+}
