@@ -4,15 +4,15 @@
     "name": "Goatman (Behavior)",
     "description": "The Goatman hunts you... and he likes to say hello up close.",
     "uuid": "8487e3bd-01e7-43aa-b5e2-53c65643d5ef",
-    "version": [1, 0, 0],
+    "version": [1, 1, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
-    { "type": "data", "uuid": "e668801e-f263-4af0-87e8-7486f6d953bb", "version": [1, 0, 0] },
-    { "type": "script", "language": "javascript", "uuid": "22cc4c62-0e58-4632-a364-1b28a77b452a", "version": [1, 0, 0], "entry": "scripts/main.js" }
+    { "type": "data", "uuid": "e668801e-f263-4af0-87e8-7486f6d953bb", "version": [1, 1, 0] },
+    { "type": "script", "language": "javascript", "uuid": "22cc4c62-0e58-4632-a364-1b28a77b452a", "version": [1, 1, 0], "entry": "scripts/main.js" }
   ],
   "dependencies": [
-    { "uuid": "24b6579c-666d-40de-82f1-bd598815bec3", "version": [1, 0, 0] },
+    { "uuid": "24b6579c-666d-40de-82f1-bd598815bec3", "version": [1, 1, 0] },
     { "module_name": "@minecraft/server", "version": "1.11.0" }
   ]
 }

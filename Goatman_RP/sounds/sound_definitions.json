@@ -4,6 +4,30 @@
     "goatman.jumpscare": {
       "category": "hostile",
       "sounds": [{ "name": "sounds/goatman/jumpscare", "volume": 1.0, "load_on_low_memory": true }]
+    },
+    "goatman.roar": {
+      "category": "hostile",
+      "min_distance": 6.0,
+      "max_distance": 64.0,
+      "sounds": [{ "name": "sounds/goatman/roar", "volume": 1.0 }]
+    },
+    "goatman.i_see_you": {
+      "category": "hostile",
+      "sounds": [
+        { "name": "sounds/goatman/i_see_you_1", "volume": 1.0 },
+        { "name": "sounds/goatman/i_see_you_2", "volume": 1.0 }
+      ]
+    },
+    "goatman.help": {
+      "category": "hostile",
+      "min_distance": 4.0,
+      "max_distance": 64.0,
+      "sounds": [
+        { "name": "sounds/goatman/help_1", "volume": 0.9 },
+        { "name": "sounds/goatman/help_2", "volume": 0.9 },
+        { "name": "sounds/goatman/help_3", "volume": 0.9 },
+        { "name": "sounds/goatman/help_4", "volume": 0.9 }
+      ]
     }
   }
 }

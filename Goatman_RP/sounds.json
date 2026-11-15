@@ -8,7 +8,7 @@
           "ambient": "mob.goat.ambient.screamer",
           "hurt": "mob.goat.hurt.screamer",
           "death": "mob.goat.death.screamer",
-          "step": { "sound": "mob.zombie.step", "volume": 0.35, "pitch": 0.7 }
+          "step": { "sound": "mob.goat.step", "volume": 0.8, "pitch": [0.6, 0.75] }
         }
       }
     }

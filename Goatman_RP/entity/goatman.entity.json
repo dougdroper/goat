@@ -7,13 +7,15 @@
       "textures": { "default": "textures/entity/goatman" },
       "geometry": { "default": "geometry.goatman" },
       "animations": {
+        "pose": "controller.animation.goatman.pose",
+        "look_at_target": "animation.goatman.look_at_target",
         "idle": "animation.goatman.idle",
         "walk": "animation.goatman.walk",
-        "look_at_target": "animation.goatman.look_at_target"
+        "stare": "animation.goatman.stare",
+        "quad_pose": "animation.goatman.quad_pose",
+        "quad_run": "animation.goatman.quad_run"
       },
-      "scripts": {
-        "animate": ["idle", "look_at_target", { "walk": "query.modified_move_speed" }]
-      },
+      "scripts": { "animate": ["pose"] },
       "render_controllers": ["controller.render.default"],
       "spawn_egg": { "base_color": "#2b211c", "overlay_color": "#b01010" }
     }
